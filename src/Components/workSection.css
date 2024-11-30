@@ -1,0 +1,49 @@
+.container1 {
+    padding: 20px;
+    top: -250px;  /* Adjust the positioning if needed */
+   padding-top: 300px;
+    background-color: #e3e3e3;
+    z-index: -1;  /* Set to a lower z-index to push it behind other elements */
+    position: relative;  /* Ensure it can be positioned using top */
+}
+
+   
+   .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+   }
+   
+   .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+   }
+   
+   .process-steps {
+    display: flex;
+    flex-direction: column;
+   }
+   
+   .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+   }
+   
+   .icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+   }
+   
+   .step-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+   }
+   
+   .step-description {
+    font-size: 14px;
+    color: #666;
+   }

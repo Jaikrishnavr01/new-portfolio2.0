@@ -1,0 +1,195 @@
+.hero-container {
+    position: relative;
+    font-family: Arial, sans-serif;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column; /* Stack content on smaller screens */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-bubble {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+    width: 100px; /* Adjust bubble size for responsiveness */
+    height: 0px;
+    background: rgb(199, 241, 192);
+    border-radius: 50%;
+    z-index: -1;
+    animation: herobubble1 15s linear 5s infinite;
+  } 
+
+@keyframes herobubble1 {
+  0% {
+    transform: translate(-30px, 10px) scale(1);
+    background: rgb(199, 241, 192);
+  }
+  50% {
+    transform: translate(30px, -10px) scale(1.2);
+    background: rgb(240, 192, 241);
+  }
+  100% {
+    transform: translate(0,0) scale(1);
+    background: rgb(192, 241, 237);
+  }
+}  
+
+.hero-bubble2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px; /* Adjust bubble size for responsiveness */
+  height: 0px;
+  background: rgb(199, 241, 192);
+  border-radius: 50%;
+  z-index: -1;
+  animation: herobubble2 20s linear 20s infinite ;
+} 
+
+@keyframes herobubble2 {
+100% {
+  background: rgb(199, 241, 192);
+}
+50% {
+  
+  border-radius: 0;
+  background: rgb(240, 192, 241);
+}
+0% {
+  background: rgb(192, 241, 237);
+}
+}  
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column; /* Stack content for smaller screens */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 20px;
+    text-align: center; /* Center-align text for smaller screens */
+  }
+  
+  .hero-left {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+  
+  .hero-title {
+    font-size: 2rem; /* Reduce font size for responsiveness */
+    color: #20232a;
+    margin-bottom: 20px;
+  }
+  
+  .hero-highlight {
+    font-weight: bold;
+  }
+  
+  .hero-description {
+    font-size: 1rem; /* Adjust font size for responsiveness */
+    color: #606060;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    background-color: #6a5acd;
+    color: white;
+    padding: 10px 15px; /* Adjust padding for smaller buttons */
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .hero-stats-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .hero-stat {
+    gap: 10px;
+    width: 200px;
+    height: 60px;
+    background: #f6fefd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .hero-stat-number {
+    font-size: 2rem;
+    
+    color: #6a5acd;
+  }
+  
+  .hero-stat-text {
+    font-size: 1rem;
+    color: #606060;
+  }
+ 
+  
+  .hero-image-container {
+    /* margin-left: 50px; Add margin for better spacing */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 250px; /* Adjust for smaller screens */
+  }
+  
+  .hero-image {
+    left: 20px;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-container {
+      flex-direction: row; /* Revert to row layout for larger screens */
+      padding: 100px;
+    }
+  
+    .hero-content {
+      flex-direction: row; /* Align content side by side */
+      text-align: left; /* Revert text alignment */
+    }
+  
+    .hero-left {
+      max-width: 60%;
+    }
+  
+    .hero-title {
+      font-size: 3rem; /* Restore larger font size */
+    }
+  
+    .hero-description {
+      font-size: 1.2rem; /* Restore font size */
+    }
+  
+    .hero-stats-container {
+      flex-direction: row; /* Align stats side by side */
+      gap: 0; /* Remove spacing */
+    }
+  
+    .hero-image-container {
+       margin-left: 60px;
+      max-width: 300px; 
+    }
+  
+    .hero-bubble {
+      width: 550px;
+      height: 550px;
+      filter: blur(40px);
+    }
+    .hero-bubble2 {
+      width: 150px;
+      height: 150px;
+      filter: blur(35px);
+    }
+  }
+  
+

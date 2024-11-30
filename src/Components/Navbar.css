@@ -1,0 +1,146 @@
+/* Navbar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px;
+    width: 100%;
+   background: transparent;
+    box-shadow: 0 4px 6px herobubble1;
+  }
+  
+  /* Logo styling */
+  .logo {
+    left: 60%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 30px; /* Adjust image size */
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Menu list styling */
+  .menu {
+    list-style: none;
+    display: flex;
+    
+    /* position: absolute; Position the menu absolutely */
+    left: 50%;
+    transform: translateX(-50%); /* Adjust position to center */
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .menu li {
+    margin-left: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .menu a:hover {
+    color: #f59433;
+  }
+  
+  /* .menu a.active {
+    color: #007bff;
+    font-weight: bold;
+  } */
+  
+  /* Hamburger menu (visible only on small screens) */
+  .hamburger {
+    display: none; /* Hide by default */
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    position: absolute;
+    left: 40rem;
+    right: 0px; /* Move hamburger button to the right */
+    top: 15px; /* Adjust position vertically */
+    z-index: 1100; /* Ensure it stays on top of other elements */
+  }
+  
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #b74141;
+    left: 900px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  /* Hamburger animation when active */
+  .hamburger.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+
+  .contact{
+    width: 80px;
+height: 25px;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  /* Media query for mobile responsiveness */
+  @media (max-width: 1055px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: flex-start; /* Align items vertically */
+    }
+  
+    .menu {
+      display: none; /* Hide menu by default */
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: auto;
+      width: 50%;
+      flex-direction: column;
+      background-color: rgba(241, 205, 205, 0.778);
+      color: white;
+      font-size: 20px;
+      padding-top: 20px;
+      transform: translateX(100%);
+    }
+  
+    .menu.active {
+      display: flex; /* Show menu when active */
+      transform: translateX(0);
+    }
+  
+    .menu li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  
+    .hamburger {
+      display: flex; /* Show hamburger menu on mobile */
+    }
+
+    
+  }
+  
+
+  
