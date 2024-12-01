@@ -1,49 +1,146 @@
+/* Main container */
 .container1 {
     padding: 20px;
-    top: -250px;  /* Adjust the positioning if needed */
-   padding-top: 300px;
+    padding-top: 300px;
     background-color: #e3e3e3;
-    z-index: -1;  /* Set to a lower z-index to push it behind other elements */
-    position: relative;  /* Ensure it can be positioned using top */
+    width: 100%;
+    position: absolute; /* Allows for positioning adjustments */
+    z-index: -1; /* Ensures it doesn't interfere with hover effects */
+    margin-top: -250px; /* Position adjustment */
 }
 
-   
-   .title {
-    font-size: 24px;
+/* Grid container for text and steps */
+.work-process-grid {
+    display: grid;
+    grid-template-columns: 2.5fr 2fr; /* Two columns for larger screens */
+    gap: 20px;
+    align-items: center; /* Aligns content vertically at the start */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Left text content */
+.text-content {
+    text-align: left;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Steps container on the right */
+.steps-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid for larger screens */
+    gap: 30px;
+    justify-items: center; /* Centers items horizontally */
+    align-items: start; /* Aligns items vertically at the top */
+}
+
+/* Step card styles */
+.step {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    width: 100%; /* Card width */
+    max-width: 300px;
+    z-index: 1;
+    cursor: pointer; /* Adds pointer cursor on hover */
+}
+
+/* Step hover effect */
+.step:hover {
+    scale: 1.1;
+    transform: translateY(-5px); /* Lifts the card slightly */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); /* Increases shadow intensity */
+}
+
+/* Icon styles */
+.icon1 {
+    font-size: 2rem;
+    color: #6c63ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Circular icon background */
+    background-color: #fee1ff;
+    margin: 0 0 15px 0; /* Centers the icon and adds spacing */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Icon hover effect */
+.step:hover .icon1 {
+    background-color: #f700ff; /* Changes background color on hover */
+    color: #fff; /* Changes icon color on hover */
+}
+
+/* Step title */
+.step-title {
+    font-size: 1.25rem;
     font-weight: bold;
     color: #333;
-   }
-   
-   .description {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-   }
-   
-   .process-steps {
-    display: flex;
-    flex-direction: column;
-   }
-   
-   .step {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-   }
-   
-   .icon {
-    font-size: 24px;
-    color: #007bff;
-    margin-right: 10px;
-   }
-   
-   .step-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-   }
-   
-   .step-description {
-    font-size: 14px;
-    color: #666;
-   }
+    margin-bottom: 10px;
+}
+
+/* Step description */
+.step-description {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .work-process-grid {
+        grid-template-columns: 1fr; /* Single-column layout */
+    }
+
+    .text-content {
+        text-align: center; /* Center-align text content */
+    }
+
+    .steps-container {
+        grid-template-columns: 1fr; /* Single-column layout for steps */
+        gap: 20px; /* Reduce gap between cards */
+    }
+
+    .step {
+        max-width: 100%; /* Make step cards take full width */
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.8rem; /* Smaller title for very small screens */
+    }
+
+    .description {
+        font-size: 0.9rem; /* Adjust description font size */
+    }
+
+    .icon1 {
+        width: 40px; /* Slightly smaller icon */
+        height: 40px;
+        font-size: 1.5rem; /* Smaller icon font size */
+    }
+
+    .step-title {
+        font-size: 1.1rem; /* Adjust step title size */
+    }
+
+    .step-description {
+        font-size: 0.9rem; /* Adjust step description size */
+    }
+}
