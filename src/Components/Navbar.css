@@ -7,7 +7,7 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-   background: rgba(255, 252, 246, 0.748);
+   background: rgba(255, 252, 246, 0.858);
     box-shadow: 0 4px 6px herobubble1;
   }
   
@@ -26,7 +26,21 @@
   
   .logo h1 {
     font-size: 24px;
-    color: #333;
+    animation: navlogo 20s linear 20s infinite;
+  }
+  
+  @keyframes navlogo {
+    100% {
+      color: rgb(0, 0, 0);
+    }
+  
+    50% {
+      color: rgb(165, 143, 143);
+    }
+  
+    0% {
+      color: rgb(0, 0, 0);
+    }
   }
   
   /* Menu list styling */
