@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <Navbar/>
       <Herosection/>
-      <AboutSection/>
-      <Workprocess/>
+       <AboutSection/>
+       <Workprocess/> 
     </div>
   )
 }

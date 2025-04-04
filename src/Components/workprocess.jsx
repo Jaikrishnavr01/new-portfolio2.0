@@ -6,7 +6,7 @@ export default function Workprocess() {
         <div className='container1'>
         <div className="work-process-grid">
             <div className="text-content">
-                <h1 className="title">Work Process</h1>
+                <h1 className="title">Work Process</h1> 
                 <p className="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet.
                 </p>

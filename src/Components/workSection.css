@@ -1,12 +1,11 @@
 /* Main container */
 .container1 {
     padding: 20px;
-    padding-top: 300px;
-    background-color: #e3e3e3;
+    padding-top: 200px;
+    background-color: #e9e9e9;
     width: 100%;
-    position: absolute; /* Allows for positioning adjustments */
+    position: absolute; 
     z-index: -1; /* Ensures it doesn't interfere with hover effects */
-    margin-top: -250px; /* Position adjustment */
 }
 
 /* Grid container for text and steps */
@@ -17,16 +16,18 @@
     align-items: center; /* Aligns content vertically at the start */
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 50px;
 }
 
 /* Left text content */
 .text-content {
     text-align: left;
+    margin-top: -50px;
+    padding-top: -100px;
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 1.9rem;
     color: #333;
     margin-bottom: 10px;
 }
@@ -82,7 +83,7 @@
 
 /* Icon hover effect */
 .step:hover .icon1 {
-    background-color: #f700ff; /* Changes background color on hover */
+    background-color: #ff70f3; /* Changes background color on hover */
     color: #fff; /* Changes icon color on hover */
 }
 

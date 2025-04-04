@@ -25,9 +25,9 @@ export default function HeroSection() {
           {/* Stats Section */}
           <div className="hero-stats-container">
             <div className="hero-stat">
-              <h2 className="hero-stat-number">
-                <CountUp start={0} end={1} duration={2.5} /> Year
-              </h2>
+              <h3 className="hero-stat-number">
+                <CountUp start={0} end={6} duration={2.5} /> Months
+              </h3>
               <p className="hero-stat-text">Experience</p>
             </div>
             <div className="hero-stat">
@@ -38,7 +38,7 @@ export default function HeroSection() {
             </div>
             <div className="hero-stat">
               <h2 className="hero-stat-number">
-                <CountUp start={0} end={8} duration={4.5} />
+                <CountUp start={0} end={2} duration={4.5} />
               </h2>
               <p className="hero-stat-text">Happy Clients</p>
             </div>

@@ -4,6 +4,8 @@ import './AboutSection.css'
 export default function AboutSection() {
   return (
     <>
+    <div className='about-section'></div>
+    <div class="template-1">
    <div class="template">
    <div className="hero-bubble3"></div>
   <div class="profile-container">
@@ -25,6 +27,7 @@ export default function AboutSection() {
       <a href="#" class="btn cv-btn">Download CV</a>
     </div>
   </div>
+</div>
 </div>
 
     </>
