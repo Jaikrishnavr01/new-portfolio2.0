@@ -9,7 +9,7 @@ export default function AboutSection() {
    <div class="template">
    <div className="hero-bubble3"></div>
   <div class="profile-container">
-    <img src="https://via.placeholder.com/400" alt="Profile Image" class="profile-img" />
+    <img src="https://placehold.co/400" alt="Profile Image" class="profile-img" />
     <div class="social-icons">
       <a href="#" class="icon"> <i class="fab fa-facebook-f"></i></a>
       <a href="#" class="icon"> <i class="fab fa-instagram"></i></a>

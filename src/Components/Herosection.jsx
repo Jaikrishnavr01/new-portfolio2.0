@@ -48,8 +48,8 @@ export default function HeroSection() {
         {/* Right Section */}
         <div className="hero-image-container">
           <img
-            src="https://via.placeholder.com/400"
-            alt="Brooklyn Gilbert"
+            src="https://placehold.co/400"
+            alt="jai krishna "
             className="hero-image"
           />
         </div>
