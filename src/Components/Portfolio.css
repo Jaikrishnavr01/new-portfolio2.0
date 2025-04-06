@@ -114,6 +114,28 @@
     font-size: 1.1rem;
     margin: 0;
   }
+
+
+  .view-all-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-all-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-button button:hover {
+    background-color: #555;
+}
+
   
   /* Responsive tweaks */
   @media (max-width: 768px) {

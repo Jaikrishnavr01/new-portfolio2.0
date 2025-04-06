@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutSection.css'
+import aboutimg from '../assets/about.png'
 
 export default function AboutSection() {
   return (
@@ -9,7 +10,7 @@ export default function AboutSection() {
    <div class="template">
    <div className="hero-bubble3"></div>
   <div class="profile-container">
-    <img src="https://placehold.co/400" alt="Profile Image" class="profile-img" />
+    <img src={aboutimg} alt="Profile Image" class="profile-img" />
     <div class="social-icons">
       <a href="#" class="icon"> <i class="fab fa-facebook-f"></i></a>
       <a href="#" class="icon"> <i class="fab fa-instagram"></i></a>
@@ -18,7 +19,7 @@ export default function AboutSection() {
     </div>
   </div>
   <div class="content">
-    <h2>I am Professional User Experience Designer</h2>
+    <h2>I am Professional Mern Stack Web Developer</h2>
     <p>
       I design and develop services for customers specializing in creating stylish, modern websites, web services, and online stores. My passion is to design digital user experiences.
     </p>

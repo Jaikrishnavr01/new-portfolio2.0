@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import './HeroSection.css';
+import heroimg from '../assets/hero.png'; 
 
 export default function HeroSection() {
   return (
@@ -17,9 +18,8 @@ export default function HeroSection() {
             <span className="hero-highlight">Jai Krishna</span>
           </h1>
           <p className="hero-description">
-            I’m a Freelance <b>UI/UX Designer</b> and <b>Developer</b> based in London,
-            England. I strive to build immersive and beautiful web applications through
-            carefully crafted code and user-centric design.
+          I’m a Freelance <b>Web Developer</b> based in Erode, Tamil Nadu.
+          I specialize in building responsive and dynamic web applications using the <b>MERN stack</b>. I’m passionate about writing clean code and delivering user-focused designs that create seamless digital experiences.
           </p>
           <button className="hero-button">Say Hello!</button>
           {/* Stats Section */}
@@ -48,7 +48,7 @@ export default function HeroSection() {
         {/* Right Section */}
         <div className="hero-image-container">
           <img
-            src="https://placehold.co/400"
+            src={heroimg}
             alt="jai krishna "
             className="hero-image"
           />
