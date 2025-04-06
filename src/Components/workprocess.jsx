@@ -3,7 +3,7 @@ import './workSection.css';
 
 export default function Workprocess() {
     return (
-        <div className='container1'>
+        <div className='container1' id='process'>
         <div className="work-process-grid">
             <div className="text-content">
                 <h1 className="title">Work Process</h1> 

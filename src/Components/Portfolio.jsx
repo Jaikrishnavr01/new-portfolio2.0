@@ -93,7 +93,7 @@ const Portfolio = () => {
     const visibleProjects = showAll ? projects : projects.slice(0, 6);
 
     return (
-        <section className='portfolio-section'>
+        <section className='portfolio-section' id='portfolio'>
             <h1>Portfolio</h1>
             <p>Here are some projects I’ve worked on as a MERN stack developer.</p>
 

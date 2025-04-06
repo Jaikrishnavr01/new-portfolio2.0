@@ -5,7 +5,7 @@ import aboutimg from '../assets/about.png'
 export default function AboutSection() {
   return (
     <>
-    <div className='about-section'></div>
+    <div className='about-section' id='about'></div>
     <div class="template-1">
    <div class="template">
    <div className="hero-bubble3"></div>
