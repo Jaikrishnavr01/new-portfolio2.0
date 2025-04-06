@@ -7,6 +7,7 @@ import Portfolio from '../Components/Portfolio'
 import Disuss from '../Components/Disuss'
 import WhatIDo from '../Components/WhatIDo'
 import Testimonials from '../Components/Testimonials'
+import Contact from '../Components/Contact'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Disuss/>
       <WhatIDo/>
       <Testimonials/>
+      <Contact/>
       </div>
     </div>
   )

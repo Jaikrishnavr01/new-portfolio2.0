@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutSection.css'
 import aboutimg from '../assets/about.png'
+import resume from '../assets/jaikrishna_ Resume.pdf'
 
 export default function AboutSection() {
   return (
@@ -25,7 +26,7 @@ export default function AboutSection() {
     </p>
     <div class="buttons">
       <a href="#portfolio" class="btn project-btn">My Project</a>
-      <a href="#" class="btn cv-btn">Download CV</a>
+      <a href={resume} download='jaikrishna_resume' class="btn cv-btn">Download CV</a>
     </div>
   </div>
 </div>
