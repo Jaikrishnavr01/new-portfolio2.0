@@ -1,0 +1,41 @@
+.discuss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background-color: #01224c;
+    /* border-radius: 16px; */
+    /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    gap: 20px;
+    /* max-width: 600px; */
+    /* margin: 40px auto; */
+  }
+  
+  .discuss h3 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+  }
+  
+  .discuss p {
+    font-size: 16px;
+    color: rgb(147, 149, 148);
+  }
+  
+  .discuss button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .discuss button:hover {
+    background-color: #0056b3;
+  }
+  

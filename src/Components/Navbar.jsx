@@ -38,7 +38,7 @@ export default function Navbar() {
             <li><a href="#process">Process</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             {/* <li><a href="#blog">Blog</a></li> */}
-            <li><a href="services">Services</a></li>
+            <li><a href="#services">Services</a></li>
             <li><button className='contact'>Contact</button></li>
           </ul>
         </div>
