@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import './HeroSection.css';
-import heroimg from '../assets/hero.png'; 
+import heroimg from '../assets/about.png'; 
 
 export default function HeroSection() {
   return (
