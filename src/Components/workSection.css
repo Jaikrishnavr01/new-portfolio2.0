@@ -1,7 +1,7 @@
 /* Main container */
 .container1 {
     padding: 20px;
-    padding-top: 500px;
+    padding-top: 400px;
     background-color: #e9e9e9;
     width: 100%;
     position: relative; 
@@ -101,9 +101,21 @@
     color: #777;
     line-height: 1.6;
 }
-
+ {
+    
+}
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .container1 {
+        padding-top: 500px;
+    }
+    
+}
+
 @media (max-width: 768px) {
+    .container1 {
+        padding-top: 450px;
+    }
     .work-process-grid {
         grid-template-columns: 1fr; /* Single-column layout */
     }
