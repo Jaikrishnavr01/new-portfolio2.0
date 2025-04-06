@@ -114,7 +114,7 @@
 
 @media (max-width: 768px) {
     .container1 {
-        padding-top: 450px;
+        padding-top: 380px;
     }
     .work-process-grid {
         grid-template-columns: 1fr; /* Single-column layout */
@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 480px) {
+    .container1 {
+        padding-top: 350px;
+    }
     .title {
         font-size: 1.8rem; /* Smaller title for very small screens */
     }
