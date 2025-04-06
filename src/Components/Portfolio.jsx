@@ -9,8 +9,8 @@ import foodpro from '../assets/food.png'
 import Tourismwebsitepro from '../assets/Tourismwebsite.png'
 import portfolio1pro from '../assets/portfolio1.png'
 import Ecommerspro from '../assets/Ecommers.png'
-import portfolio2pro from '../assets/portfolio2.png'
-import portfolio3pro from '../assets/portfolio3.png'
+import portfolio2pro from '../assets/porrtfolio2.png'
+import portfolio3pro from '../assets/porrtfolio3.png'
 
 const projects = [
     {
