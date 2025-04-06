@@ -6,6 +6,11 @@ import hotelpro from '../assets/hotel.png'
 import iphonepro from '../assets/iphone.png'
 import genderpro from '../assets/gender.png'
 import foodpro from '../assets/food.png'
+import Tourismwebsitepro from '../assets/Tourismwebsite.png'
+import portfolio1pro from '../assets/portfolio1.png'
+import Ecommerspro from '../assets/Ecommers.png'
+import portfolio2pro from '../assets/portfolio2.png'
+import portfolio3pro from '../assets/portfolio3.png'
 
 const projects = [
     {
@@ -46,47 +51,40 @@ const projects = [
     },
 
     {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
+        img: Tourismwebsitepro,
+        title: "Tourism Website",
+        description: "A vibrant and user-friendly website built in React JS, showcasing travel destinations, attractions, and guides for seamless trip planning.",
+        link: "https://lambent-dragon-afed45.netlify.app/"
     },
 
     {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
+        img: portfolio1pro,
+        title: "Portfolio Website",
+        description: "Responsive Portfolio website using MERN stack.",
+        link: "https://strong-yeot-d86110.netlify.app/"
     },
 
 
     {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
+        img: Ecommerspro,
+        title: "Ecommerce Website",
+        description: "Responsive E-Commerce using MERN stack.",
+        link: "https://genuine-sprite-24683d.netlify.app/"
     },
 
     {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
+        img: portfolio2pro,
+        title: "Portfolio Website",
+        description: "Responsive Portfolio website using HTML, CSS, JS.",
+        link: "https://papaya-otter-22c40f.netlify.app/"
     },
 
     {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
-    },
-
-    {
-        img: foodpro,
-        title: "Food Delivery Website",
-        description: "Responsive Food Delivery website using MERN stack.",
-        link: "https://fooddeliversite.netlify.app/"
-    },
+        img: portfolio3pro,
+        title: "Portfolio Website",
+        description: "Responsive Portfolio website using MERN stack.",
+        link: "https://effortless-stardust-cb2df4.netlify.app/"
+    }
     // Add more projects here as needed
 ];
 
