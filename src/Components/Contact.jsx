@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact-wrapper">
+    <section className="contact-wrapper" id='contact'>
         <ToastContainer position="top-right" autoClose={3000} />
       <div className="contact-glass">
         <div className="contact-heading">
@@ -52,14 +52,14 @@ const Contact = () => {
               <span className="icon">✉️</span>
               <div>
                 <h4>Email</h4>
-                <p>jaikrishnavr@outlook.com</p>
+                <p>jaikrishnavr@gmail.com</p>
               </div>
             </div>
             <div className="info-block">
               <span className="icon">📞</span>
               <div>
                 <h4>Phone</h4>
-                <p>+91 7373185857</p>
+                <p>+91 8270581154</p>
               </div>
             </div>
 

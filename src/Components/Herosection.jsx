@@ -4,9 +4,15 @@ import './HeroSection.css';
 import heroimg from '../assets/about.png'; 
 
 export default function HeroSection() {
+  const scrollToElement = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
-    <div className="hero-container">
+    <div className="hero-container" id='home'>
       <div className="hero-bubble"></div>
       <div className="hero-bubble2"></div>
 
@@ -21,7 +27,7 @@ export default function HeroSection() {
           I’m a Freelance <b>Web Developer</b> based in Erode, Tamil Nadu.
           I specialize in building responsive and dynamic web applications using the <b>MERN stack</b>. I’m passionate about writing clean code and delivering user-focused designs that create seamless digital experiences.
           </p>
-          <button className="hero-button">Say Hello!</button>
+          <button className="hero-button" onClick={() => scrollToElement('contact')}>Say Hello!</button>
           {/* Stats Section */}
           <div className="hero-stats-container">
             <div className="hero-stat">

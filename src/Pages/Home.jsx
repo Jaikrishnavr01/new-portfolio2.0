@@ -8,6 +8,7 @@ import Disuss from '../Components/Disuss'
 import WhatIDo from '../Components/WhatIDo'
 import Testimonials from '../Components/Testimonials'
 import Contact from '../Components/Contact'
+import Footerpage from '../Components/Footerpage'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <WhatIDo/>
       <Testimonials/>
       <Contact/>
+      <Footerpage/>
       </div>
     </div>
   )
