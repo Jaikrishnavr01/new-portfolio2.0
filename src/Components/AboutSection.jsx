@@ -20,9 +20,19 @@ export default function AboutSection() {
     <img src={aboutimg} alt="Profile Image" class="profile-img" />
     <div class="social-icons">
       {/* <a href="#" class="icon"> <i class="fab fa-facebook-f"></i></a> */}
-      <a href="https://www.instagram.com/jk_webdesign_solutions" target='_self' class="icon"> <i class="fab fa-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/jaikrishnavr/" target='_self' class="icon"> <i class="fab fa-linkedin-in"></i></a>
-      {/* <a href="#" class="icon"> <i class="fab fa-behance"></i></a> */}
+      <a href="https://www.instagram.com/jk_webdesign_solutions" class="icon" aria-label="Instagram">
+  <i class="fab fa-instagram"></i>
+</a>
+<a href="https://www.linkedin.com/in/jaikrishnavr/" class="icon" aria-label="LinkedIn">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+<a href="mailto:jaikrishnavr@gmail.com" class="icon" aria-label="Email">
+  <i class="fas fa-envelope"></i>
+</a>
+<a href="https://wa.me/8270581154?text=Hi%20Jai%20krishna%2C%20I%20found%20your%20portfolio%20and%20wanted%20to%20connect!" class="icon" aria-label="WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
     </div>
   </div>
   <div class="content">

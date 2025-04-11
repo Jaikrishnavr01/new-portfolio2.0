@@ -16,22 +16,22 @@ const Contact = () => {
       form.current,
       'hQUs42nt4uSkQXR4Y'        // Your Public Key
     )
-    .then(
-      (result) => {
-        console.log(result.text);
-        toast.success('Message sent successfully!');
-        form.current.reset(); // reset form after submit
-      },
-      (error) => {
-        console.log(error.text);
-        toast.error('Failed to send message. Please try again.');
-      }
-    );
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success('Message sent successfully!');
+          form.current.reset(); // reset form after submit
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error('Failed to send message. Please try again.');
+        }
+      );
   };
 
   return (
     <section className="contact-wrapper" id='contact'>
-        <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="top-right" autoClose={3000} />
       <div className="contact-glass">
         <div className="contact-heading">
           <h2>Let’s Work Together</h2>
@@ -66,6 +66,13 @@ const Contact = () => {
             <div className="socials">
               <a href="https://www.instagram.com/jk_webdesign_solutions" target="_self" className="icon"><i className="fab fa-instagram"></i></a>
               <a href="https://www.linkedin.com/in/jaikrishnavr/" target="_self" className="icon"><i className="fab fa-linkedin-in"></i></a>
+              <a href="mailto:jaikrishnavr@gmail.com" class="icon" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://wa.me/8270581154?text=Hi%20Jai%20krishna%2C%20I%20found%20your%20portfolio%20and%20wanted%20to%20connect!" class="icon" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+
             </div>
           </div>
 
