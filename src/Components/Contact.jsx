@@ -16,22 +16,22 @@ const Contact = () => {
       form.current,
       'hQUs42nt4uSkQXR4Y'        // Your Public Key
     )
-    .then(
-      (result) => {
-        console.log(result.text);
-        toast.success('Message sent successfully!');
-        form.current.reset(); // reset form after submit
-      },
-      (error) => {
-        console.log(error.text);
-        toast.error('Failed to send message. Please try again.');
-      }
-    );
+      .then(
+        (result) => {
+          console.log(result.text);
+          toast.success('Message sent successfully!');
+          form.current.reset(); // reset form after submit
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error('Failed to send message. Please try again.');
+        }
+      );
   };
 
   return (
-    <section className="contact-wrapper">
-        <ToastContainer position="top-right" autoClose={3000} />
+    <section className="contact-wrapper" id='contact'>
+      <ToastContainer position="top-right" autoClose={3000} />
       <div className="contact-glass">
         <div className="contact-heading">
           <h2>Let’s Work Together</h2>
@@ -52,14 +52,14 @@ const Contact = () => {
               <span className="icon">✉️</span>
               <div>
                 <h4>Email</h4>
-                <p>jaikrishnavr@outlook.com</p>
+                <p>jaikrishnavr@gmail.com</p>
               </div>
             </div>
             <div className="info-block">
               <span className="icon">📞</span>
               <div>
                 <h4>Phone</h4>
-                <p>+91 7373185857</p>
+                <p>+91 8270581154</p>
               </div>
             </div>
 
