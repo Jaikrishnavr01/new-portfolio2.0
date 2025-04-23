@@ -16,6 +16,7 @@ export default function AboutSection() {
       {/* <a href="#" class="icon"> <i class="fab fa-facebook-f"></i></a> */}
       <a href="https://www.instagram.com/jk_webdesign_solutions" target='_self' class="icon"> <i class="fab fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/jaikrishnavr/" target='_self' class="icon"> <i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/Jaikrishnavr01" target='_self' class="icon"> <i class="fab fa-github"></i></a>
       {/* <a href="#" class="icon"> <i class="fab fa-behance"></i></a> */}
     </div>
   </div>

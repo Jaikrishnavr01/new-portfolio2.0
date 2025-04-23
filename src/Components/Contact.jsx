@@ -66,6 +66,7 @@ const Contact = () => {
             <div className="socials">
               <a href="https://www.instagram.com/jk_webdesign_solutions" target="_self" className="icon"><i className="fab fa-instagram"></i></a>
               <a href="https://www.linkedin.com/in/jaikrishnavr/" target="_self" className="icon"><i className="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/Jaikrishnavr01" target='_self' class="icon"> <i class="fab fa-github"></i></a>
             </div>
           </div>
 
